@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 64px;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: navy;
+}
+
+.navbar img {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.nav li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav button{
+    border: none;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: url("image/pexels-caio-56759.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+
+.home{
+    margin: 0px;
+    background-color: black;
+}
